@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Work</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-light ">
+    <a class="navbar-brand d-flex align-items-center" href="#">
+        <img src="https://legendscondos.com/wp-content/uploads/2018/09/product5.jpg" alt="Logo" class="img-fluid mb-4 mx-2 logo">
+        Time Tracking
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="register.html">Register</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="login.html">Login</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="profile.html">Profile</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="work.html">Work Page</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<div class="container mt-5">
+    <h2>Work page</h2>
+    <div class="row">
+        <div class="col-md-6">
+            <h3>Timer</h3>
+            <div id="timer-display" class="mb-3">00:00:00</div>
+            <button id="start-btn" class="btn btn-success mr-1">Start</button>
+            <button id="pause-btn" class="btn btn-warning mr-1">Pause</button>
+            <button id="resume-btn" class="btn btn-info mr-1">Continue</button>
+            <button id="stop-btn" class="btn btn-danger">Stop</button>
+        </div>
+        <div class="col-md-6">
+            <h3>Session history</h3>
+            <ul id="session-history" class="list-group"></ul>
+        </div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
